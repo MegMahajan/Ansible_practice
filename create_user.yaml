@@ -1,0 +1,7 @@
+---
+- name: This file will create user
+  become: true
+  hosts: all
+  tasks:
+   - name: To create user Megha
+     user: name=Megha
